@@ -4,98 +4,112 @@ This repository contains a series of Turbo C++ console-based mini-projects.
 
 ---
 
-## 📚 Table of Contents
+## 📚 Project List
 
-1. [📅 Year Calendar Generator](#-1-year-calendar-generator)
-2. [🔤 Typing Speed Game](#-2-typing-speed-game)
-3. [👋 Hello World with Name Input](#-3-hello-world-with-name-input)
-4. [🧮 Basic Calculator](#-4-basic-calculator)
-5. [🏦 USB-Based ATM (Single Account)](#-5-usb-based-atm-single-account)
-6. [🏧 Multi-Account ATM with PIN & Logs](#-6-multi-account-atm-with-pin--logs)
+1. 👋 [**MYFIRST.CPP** – Hello World with Name](#1-myfirstcpp--hello-world-with-name)
+2. 🔺 [**PYRAMID.CPP** – Asterisk Pyramid Generator](#2-pyramidcpp--asterisk-pyramid-generator)
+3. 🧮 [**CALCULATOR.CPP** – Basic Calculator](#3-calculatorcpp--basic-calculator)
+4. 📅 [**CALENDAR.CPP** – Year Calendar Generator](#4-calendarcpp--year-calendar-generator)
+5. 🎮 [**GAME.CPP** – Typing Speed Game](#5-gamecpp--typing-speed-game)
+6. 🏧 [**ATM.CPP** – Enhanced USB ATM System](#6-atmcpp--enhanced-usb-atm-system)
 
 ---
 
-### 📅 1. Year Calendar Generator
+### 1. 👋 Hello World with Name
 
-**Description:**  
-Prompts the user for a year and generates a full 12-month calendar in the console. Handles leap years and aligns days properly.
+**📌 Description:**  
+Prompts the user to enter their name and prints a personalized "Hello" message.
 
-**Features:**
+**💡 Features:**
+- User input
+- Formatted console output
+
+> 📁 File: `MYFIRST.CPP`
+
+---
+
+### 2. 🔺 Asterisk Pyramid Generator
+
+**📌 Description:**  
+Creates a symmetrical pyramid of asterisks (`*`) based on the number of rows entered by the user.
+
+**💡 Features:**
+- Pattern printing using loops
+- Centered pyramid structure
+
+> 📁 File: `PYRAMID.CPP`
+
+---
+
+### 3. 🧮 Basic Calculator
+
+**📌 Description:**  
+Performs arithmetic operations (+, −, ×, ÷) on two numbers input by the user.
+
+**💡 Features:**
+- Four operations
+- Input validation
+- Division-by-zero protection
+
+> 📁 File: `CALCULATOR.CPP`
+
+---
+
+### 4. 📅 Year Calendar Generator
+
+**📌 Description:**  
+Generates a full 12-month calendar for a given year, accounting for leap years and aligning weekdays correctly.
+
+**💡 Features:**
 - Leap year detection
-- Accurate start day calculation
-- Cleanly formatted output for all months
+- Day-of-week computation
+- Monthly formatting
 
-> 📁 File: `calendar.cpp`
+> 📁 File: `CALENDAR.CPP`
 
 ---
 
-### 🔤 2. Typing Speed Game
+### 5. 🎮 Typing Speed Game
 
-**Description:**  
-A console-based typing game where random letters fall from the top. You must type the matching character before it reaches the bottom. The speed increases as your score increases.
+**📌 Description:**  
+A typing game where letters fall from the top. Type them before they hit the bottom. Score increases with speed!
 
-**Features:**
-- Real-time character detection (`kbhit`, `getch`)
-- Speed scaling based on score
+**💡 Features:**
+- Real-time keyboard input
+- Progressive difficulty
 - Score tracking and retry option
 
-> 📁 File: `typing_game.cpp`
+> 📁 File: `GAME.CPP`
 
 ---
 
-### 👋 3. Hello World with Name Input
+### 6. 🏧 Enhanced USB ATM System
 
-**Description:**  
-A simple program that asks for the user's name and prints a personalized greeting.
+**📌 Description:**  
+A complete ATM simulation using a USB text file for account storage. Supports multiple users with secure PIN authentication and logs all transactions.
 
-**Example Output:**
-Hello World!
-Hello Dennis
+**💡 Features:**
+- Multiple accounts in `account.dat`
+- Masked PIN input (🔒) with max 3 attempts
+- Deposit, withdraw, balance inquiry
+- PIN change functionality
+- Transaction logging in `receipt.txt`
+- USB path configuration
 
-> 📁 File: `hello_name.cpp`
-
----
-
-### 🧮 4. Basic Calculator
-
-**Description:**  
-A calculator that performs basic arithmetic operations between two numbers.
-
-**Features:**
-- Addition, subtraction, multiplication, division
-- Input validation
-- Division-by-zero check
-
-> 📁 File: `calculator.cpp`
+> 📁 File: `ATM.CPP`
+> 📁 File Data: `account.dat`
 
 ---
 
-### 🏦 5. USB-Based ATM (Single Account)
+## 🛠 Requirements
 
-**Description:**  
-Simulates an ATM that requires a USB key file (`account.dat`) containing a secret key and a balance. Verifies the key, asks for PIN, and allows deposit/withdraw transactions. All data is read from and written to the USB.
+- Turbo C++ via DOSBox, or modern C++ compiler (Dev C++, Code::Blocks, g++)
+- USB flash drive (for `ATM.CPP`)
 
-**Features:**
-- USB file verification (`account.dat`)
-- PIN entry with masking
-- Deposit and withdraw with file updates
-- Transaction retry loop
-
-> 📁 File: `atm_usb_singlefile.cpp`  
-> 📁 Example USB file (`account.dat`):
 ---
 
-### 🏧 6. Multi-Account ATM with PIN & Logs
+## ▶️ How to Run
 
-**Description:**  
-Advanced ATM simulation with support for multiple accounts in a single file. Users log in with a username and masked PIN. Includes deposit, withdraw, balance checking, PIN change, and transaction logging.
-
-**Features:**
-- Multiple users in one file (`username,pin,balance`)
-- PIN masking and 3-attempt limit
-- Change PIN option
-- Transaction logging to `receipt.txt`
-- Realistic ATM-style UI
-
-> 📁 File: `multi_account_atm.cpp`  
-> 📁 Example USB `account.dat`:
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/MasterConnoisseurs/mc-2015-turboc.git
