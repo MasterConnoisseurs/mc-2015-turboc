@@ -105,7 +105,7 @@ A complete ATM simulation using a USB text file for account storage. Supports mu
 - Transaction logging in `receipt.txt`
 - USB path configuration
 
-> 📁 File: `ATM.CPP`
+> 📁 File: `ATM.CPP` <br />
 > 📁 File Data: `account.dat`
 
 ---
