@@ -51,7 +51,7 @@ Performs arithmetic operations (+, −, ×, ÷) on two numbers input by the user
 - Input validation
 - Division-by-zero protection
 
-> 📁 File: `CALCULATOR.CPP`
+> 📁 File: `CALC.CPP`
 
 ---
 
