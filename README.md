@@ -15,16 +15,16 @@ This repository contains a series of Turbo C++ console-based mini-projects.
 
 ## 📚 Project List
 
-1. 👋 [**Hello World with Name**](#1-myfirstcpp--hello-world-with-name)
-2. 🔺 [**Asterisk Pyramid Generator**](#2-pyramidcpp--asterisk-pyramid-generator)
-3. 🧮 [**Basic Calculator**](#3-calculatorcpp--basic-calculator)
-4. 📅 [**Year Calendar Generator**](#4-calendarcpp--year-calendar-generator)
-5. 🎮 [**Typing Speed Game**](#5-gamecpp--typing-speed-game)
-6. 🏧 [**Enhanced USB ATM System**](#6-atmcpp--enhanced-usb-atm-system)
+1. 👋 [**Hello World with Name**](#hello-world-name)
+2. 🔺 [**Asterisk Pyramid Generator**](#asterisk-pyramid-generator)
+3. 🧮 [**Basic Calculator**](#basic-calculator)
+4. 📅 [**Year Calendar Generator**](#year-calendar-generator)
+5. 🎮 [**Typing Speed Game**](#typing-speed-game)
+6. 🏧 [**Enhanced USB ATM System**](#enhanced-usb-atm-system)
 
 ---
 
-### 1. 👋 Hello World with Name
+### 1. 👋 Hello World with Name <a id="hello-world-name"></a>
 
 **📌 Description:**  
 Prompts the user to enter their name and prints a personalized "Hello" message.
@@ -37,7 +37,7 @@ Prompts the user to enter their name and prints a personalized "Hello" message.
 
 ---
 
-### 2. 🔺 Asterisk Pyramid Generator
+### 2. 🔺 Asterisk Pyramid Generator <a id="asterisk-pyramid-generator"></a>
 
 **📌 Description:**  
 Creates a symmetrical pyramid of asterisks (`*`) based on the number of rows entered by the user.
@@ -50,7 +50,7 @@ Creates a symmetrical pyramid of asterisks (`*`) based on the number of rows ent
 
 ---
 
-### 3. 🧮 Basic Calculator
+### 3. 🧮 Basic Calculator <a id="basic-calculator"></a>
 
 **📌 Description:**  
 Performs arithmetic operations (+, −, ×, ÷) on two numbers input by the user.
@@ -64,7 +64,7 @@ Performs arithmetic operations (+, −, ×, ÷) on two numbers input by the user
 
 ---
 
-### 4. 📅 Year Calendar Generator
+### 4. 📅 Year Calendar Generator <a id="year-calendar-generator"></a>
 
 **📌 Description:**  
 Generates a full 12-month calendar for a given year, accounting for leap years and aligning weekdays correctly.
@@ -78,7 +78,7 @@ Generates a full 12-month calendar for a given year, accounting for leap years a
 
 ---
 
-### 5. 🎮 Typing Speed Game
+### 5. 🎮 Typing Speed Game <a id="typing-speed-game"></a>
 
 **📌 Description:**  
 A typing game where letters fall from the top. Type them before they hit the bottom. Score increases with speed!
@@ -92,7 +92,7 @@ A typing game where letters fall from the top. Type them before they hit the bot
 
 ---
 
-### 6. 🏧 Enhanced USB ATM System
+### 6. 🏧 Enhanced USB ATM System <a id="enhanced-usb-atm-system"></a>
 
 **📌 Description:**  
 A complete ATM simulation using a USB text file for account storage. Supports multiple users with secure PIN authentication and logs all transactions.
