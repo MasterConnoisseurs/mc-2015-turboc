@@ -4,11 +4,11 @@ This repository contains a series of Turbo C++ console-based mini-projects.
 
 ---
 
-## 🔥 Tech Stack
+## 🔥 Tech Stack & Tools
 
-<p align="center">
+<p>
     <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
-    <img src="https://img.shields.io/badge/IIS-2173B9?style=for-the-badge&logo=iis&logoColor=white" alt="IIS" />
+    <img src="https://img.shields.io/badge/Turbo%20C-555555?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="Turbo C Tool" /> 
 </p>
 
 ---
