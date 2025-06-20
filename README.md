@@ -33,7 +33,7 @@ Prompts the user to enter their name and prints a personalized "Hello" message.
 - User input
 - Formatted console output
 
-> 📁 File: `MYFIRST.CPP`
+> 📁 File: `Project\MYFIRST.CPP`
 
 ---
 
@@ -46,7 +46,7 @@ Creates a symmetrical pyramid of asterisks (`*`) based on the number of rows ent
 - Pattern printing using loops
 - Centered pyramid structure
 
-> 📁 File: `PYRAMID.CPP`
+> 📁 File: `Project\PYRAMID.CPP`
 
 ---
 
@@ -60,7 +60,7 @@ Performs arithmetic operations (+, −, ×, ÷) on two numbers input by the user
 - Input validation
 - Division-by-zero protection
 
-> 📁 File: `CALC.CPP`
+> 📁 File: `Project\CALC.CPP`
 
 ---
 
@@ -74,7 +74,7 @@ Generates a full 12-month calendar for a given year, accounting for leap years a
 - Day-of-week computation
 - Monthly formatting
 
-> 📁 File: `CALENDAR.CPP`
+> 📁 File: `Project\CALENDAR.CPP`
 
 ---
 
@@ -88,7 +88,7 @@ A typing game where letters fall from the top. Type them before they hit the bot
 - Progressive difficulty
 - Score tracking and retry option
 
-> 📁 File: `GAME.CPP`
+> 📁 File: `Project\GAME.CPP`
 
 ---
 
@@ -105,8 +105,8 @@ A complete ATM simulation using a USB text file for account storage. Supports mu
 - Transaction logging in `receipt.txt`
 - USB path configuration
 
-> 📁 File: `ATM.CPP` <br />
-> 📁 File Data: `account.dat`
+> 📁 File: `Project\ATM.CPP` <br />
+> 📁 File Data: `Data\account.dat`
 
 ---
 
