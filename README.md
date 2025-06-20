@@ -4,6 +4,15 @@ This repository contains a series of Turbo C++ console-based mini-projects.
 
 ---
 
+## 🔥 Tech Stack
+
+<p align="center">
+    <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
+    <img src="https://img.shields.io/badge/IIS-2173B9?style=for-the-badge&logo=iis&logoColor=white" alt="IIS" />
+</p>
+
+---
+
 ## 📚 Project List
 
 1. 👋 [**Hello World with Name**](#1-myfirstcpp--hello-world-with-name)
