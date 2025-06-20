@@ -6,12 +6,12 @@ This repository contains a series of Turbo C++ console-based mini-projects.
 
 ## 📚 Project List
 
-1. 👋 [**MYFIRST.CPP** – Hello World with Name](#1-myfirstcpp--hello-world-with-name)
-2. 🔺 [**PYRAMID.CPP** – Asterisk Pyramid Generator](#2-pyramidcpp--asterisk-pyramid-generator)
-3. 🧮 [**CALCULATOR.CPP** – Basic Calculator](#3-calculatorcpp--basic-calculator)
-4. 📅 [**CALENDAR.CPP** – Year Calendar Generator](#4-calendarcpp--year-calendar-generator)
-5. 🎮 [**GAME.CPP** – Typing Speed Game](#5-gamecpp--typing-speed-game)
-6. 🏧 [**ATM.CPP** – Enhanced USB ATM System](#6-atmcpp--enhanced-usb-atm-system)
+1. 👋 [**Hello World with Name**](#1-myfirstcpp--hello-world-with-name)
+2. 🔺 [**Asterisk Pyramid Generator**](#2-pyramidcpp--asterisk-pyramid-generator)
+3. 🧮 [**Basic Calculator**](#3-calculatorcpp--basic-calculator)
+4. 📅 [**Year Calendar Generator**](#4-calendarcpp--year-calendar-generator)
+5. 🎮 [**Typing Speed Game**](#5-gamecpp--typing-speed-game)
+6. 🏧 [**Enhanced USB ATM System**](#6-atmcpp--enhanced-usb-atm-system)
 
 ---
 
